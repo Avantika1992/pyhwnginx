@@ -11,9 +11,6 @@
           "containerPort": "80",
           "protocol": "tcp"
         }
-      ],
-      "links": [
-        "app"
       ]
     },
     {
@@ -25,7 +22,6 @@
     }
   ],
   "volumes": [],
-  "networkMode": "bridge",
   "placementConstraints": [],
   "family": "application-stack"
 }
